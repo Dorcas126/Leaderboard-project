@@ -73,18 +73,12 @@ In this activity i will set up a JavaScript project for the Leaderboard list app
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Live Demo 
-
-- [Live Demo Link](https://dorcas126.github.io/To-Do-List/dist/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started 
 
 To get a local copy up and running, follow these steps.
-just visit my repo folder (https://github.com/Dorcas126/To-Do-List/tree/to-do)
+just visit my repo folder (https://github.com/Dorcas126/Leaderboard-project.git)
 
 ### Prerequisites
 
@@ -96,7 +90,7 @@ but mostly use Vs code
 ### Setup 
 
 Clone this repository to your desired folder:
-https://github.com/Dorcas126/To-Do-List.git
+https://github.com/Dorcas126/Leaderboard-project.git
 
 ### Install
 
