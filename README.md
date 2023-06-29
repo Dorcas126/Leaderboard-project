@@ -112,10 +112,10 @@ git commands
 
 To run tests, run the following command:
 
-Linters
-npm init -y
-npm run build
-npm start
+- Linters
+- npm init -y
+- npm run build
+- npm start
 
 <!-- AUTHORS -->
 
