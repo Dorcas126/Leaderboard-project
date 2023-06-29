@@ -98,7 +98,7 @@ Install this project with:
 
 Github
 Vs code 
-webpack
+web pack
 to be able to access the code
 
 ### Usage
@@ -113,6 +113,9 @@ git commands
 To run tests, run the following command:
 
 Linters
+npm init -y
+npm run build
+npm start
 
 <!-- AUTHORS -->
 
