@@ -6,16 +6,16 @@
 }
 
 body {
-  background-color: rgb(47, 49, 50);
+  background-image: url(/img/play.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-h1 {
-  font-size: 2rem;
-  color: #fff;
-  font-family: "Roboto", cursive;
+.main-heading {
+  font-family: "Sacramento", cursive;
   text-align: center;
-  display: flex;
-  margin-bottom: 25px;
+  animation: blink 12s infinite;
+  -webkit-animation: blink 12s infinite;
 }
 
 .container {
@@ -37,17 +37,17 @@ h1 {
   justify-content: center;
   align-items: center;
   width: 100%;
-  gap: 5rem;
+  margin-top: 25px;
 }
 
 #refresh {
   background-color: initial;
-  background-image: linear-gradient(-180deg, #ff7e31, black);
+  background-image: linear-gradient(-180deg, #1b1a1a, #e62c03);
   border-radius: 6px;
-  box-shadow: rgba(0.8, 1, 1, 0.7) 0 4px 8px;
   color: #fff;
   cursor: pointer;
   display: inline-block;
+  font-family: Inter, -apple-system, system-ui, Roboto, "Helvetica Neue", Arial, sans-serif;
   height: 40px;
   line-height: 40px;
   outline: 0;
@@ -74,10 +74,11 @@ h1 {
 h2 {
   font-size: 1.8rem;
   color: #fff;
+
 }
 
 .recentScoreList {
-  border: 4px solid white;
+  border: 4px solid #fff6a9;
   border-radius: 1rem;
   width: 80%;
   margin-top: 1rem;
@@ -88,8 +89,8 @@ div ul li {
   margin: 0 10px;
   font-style: italic;
   text-transform: uppercase;
-  color: #91c5f1;
-  font-family: "Roboto", cursive;
+  color: #f5f5f4;
+  font-family: "Sacramento", cursive;
   text-align: center;
 }
 
@@ -109,7 +110,8 @@ div ul li {
 
 .input {
   height: 40px;
-  color: black;
+  background-color: rgba(88, 86, 84, 0.8);
+  color: #fff;
   font-size: 1.2rem;
 }
 
@@ -120,7 +122,7 @@ div ul li {
 
 #submit {
   background-color: initial;
-  background-image: linear-gradient(-180deg, #ff7e31, black);
+  background-image: linear-gradient(-180deg, #1b1a1a, #e62c03);
   border-radius: 6px;
   box-shadow: rgba(0.8, 1, 1, 0.7) 0 4px 8px;
   color: #fff;
@@ -143,4 +145,8 @@ div ul li {
   z-index: 9;
   border: 0;
   transition: box-shadow 0.2s;
+}
+
+h1 {
+  color:white;
 }
